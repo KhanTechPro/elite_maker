@@ -7,11 +7,13 @@ export const michroma = Michroma({
 });
 
 export const montserrat = Montserrat({
+  weight: ['400', '500', '600', '700', '800'], // ✅ use 'weight' instead of 'weights'
   subsets: ['latin'],
-  weights: ['400', '500', '600', '700', '800'], // Make sure the weights are available
   variable: '--font-montserrat',
 });
+
 export const robotoMono = Roboto_Mono({
+  weight: ['400'], // Add more if needed
   subsets: ['latin'],
   variable: '--font-roboto-mono',
 });
