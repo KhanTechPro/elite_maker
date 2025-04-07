@@ -1,5 +1,4 @@
-import { BorderBeam } from '@/components/magicui/border-beam';
-import { michroma, montserrat } from '../Fonts/fonts';
+import { michroma } from '../Fonts/fonts';
 import Image from 'next/image'
 import { TextAnimate } from './UI/text-animate';
 

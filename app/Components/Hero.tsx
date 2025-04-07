@@ -1,4 +1,4 @@
-import { michroma, montserrat, robotoMono } from '../Fonts/fonts';
+import { michroma, montserrat } from '../Fonts/fonts';
 import { TextAnimate } from "./UI/text-animate";
 import Image from 'next/image'
 import React from 'react'

@@ -1,6 +1,5 @@
 "use client"
 
-import { Pointer } from '@/components/magicui/pointer'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -8,7 +7,6 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 py-4 z-50">
-      <Pointer />
       {/* Logo */}
       <Link href="/">
         <Image src="/logo_white.svg" alt="logo" width={160} height={160} className="object-contain" />

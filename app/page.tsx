@@ -3,9 +3,8 @@
 'use client'
 
 import { useRef, useEffect } from 'react'
-import Image from 'next/image';
 import { BackgroundBeamsWithCollision } from "./Components/UI/background-beams-with-collision";
-import { Pointer } from "@/components/magicui/pointer";
+
 
 
 import Navbar from './Components/Navbar'
@@ -39,7 +38,6 @@ export default function Home() {
 
   return (
     <BackgroundBeamsWithCollision>
-      <Pointer />
     <h2 className="text-2xl relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-white dark:text-black tracking-tight">
     {" "}
     <div
