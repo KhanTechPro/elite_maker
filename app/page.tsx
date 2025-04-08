@@ -41,8 +41,9 @@ export default function Home() {
     <h2 className="text-2xl relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-white dark:text-black tracking-tight">
     {" "}
     <div
+      id="scroll-container"
       ref={scrollContainerRef}
-      className="flex w-screen h-screen overflow-x-hidden overflow-y-hidden scroll-smooth"
+      className="flex w-screen h-screen overflow-x-auto overflow-y-hidden scroll-smooth snap-x snap-mandatory"
     >
       <section className="min-w-screen h-screen flex items-center justify-center">
         <Navbar />
@@ -50,13 +51,13 @@ export default function Home() {
       <section className="min-w-screen h-screen flex items-center justify-center">
         <Hero />
       </section>
-      <section className="min-w-screen h-screen flex items-center justify-center">
+      <section id="About" className="min-w-screen h-screen flex items-center justify-center">
         <About />
       </section>
-      <section className="min-w-screen h-screen flex items-center justify-center">
+      <section id="Technologies" className="min-w-screen h-screen flex items-center justify-center">
         <Technologies />
       </section>
-      <section className="min-w-screen h-screen flex items-center justify-center">
+      <section id="Timeline" className="min-w-screen h-screen flex items-center justify-center">
         <TimeLine />
       </section>
     </div>
